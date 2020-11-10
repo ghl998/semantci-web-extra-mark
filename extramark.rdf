@@ -1,0 +1,473 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix owl: <https://www.w3.org/2002/07/owl#>.
+
+owl:Human-Values-Ontology
+a owl:Class;
+rdfs:hasSubClass owl:Human-Values;
+rdfs:hasSubClass owl:Definitions;
+rdfs:hasSubClass owl:Value-Items.
+
+owl:GDPR-Data-Ontology
+a owl:Class;
+rdfs:hasSubClass owl:GDPR-Data-Subject-Rights;
+rdfs:hasSubClass owl:Rights-Sub-Provisions-23;
+rdfs:hasSubClass owl:GDPR-Data-Protection-Principles.
+
+
+
+owl:Self-direction-action
+rdf:type owl:Human-Values;
+rdfs:hasDefinition owl:Freedom-to-determine-ones-own-actions;
+rdfs:hasExplanation owl:choosing-own-goals_own-purposes;
+rdfs:hasExplanation owl:independent_self-reliant;
+rdfs:hasExplanation owl:privacy.
+
+owl:Freedom-to-determine-ones-own-actions
+rdf:type owl:Definitions.
+
+owl:choosing-own-goals_own-purposes
+rdf:type owl:Value-Items.
+
+owl:independent_self-reliant
+rdf:type owl:Value-Items.
+
+owl:privacy
+rdf:type owl:Value-Items.
+
+
+
+owl:Power–resources
+rdf:type owl:Human-Values;
+rdfs:hasDefinition owl:Power-through-control-of-material-and-social-resources;
+rdfs:hasExplanation owl:wealth_material-possessions.
+
+owl:Power-through-control-of-material-and-social-resources
+rdf:type owl:Definitions.
+
+owl:wealth_material-possessions
+rdf:type owl:Value-Items.
+
+
+
+owl:Power–dominance
+rdf:type owl:Human-Values;
+rdfs:hasDefinition owl:Power-through-exercising-control-over-people;
+rdfs:hasExplanation owl:social-power_control-over-others; 
+rdfs:hasExplanation owl:authority_right-to-command.
+
+owl:Power-through-exercising-control-over-people
+rdf:type owl:Definitions.
+
+owl:social-power_control-over-others
+rdf:type owl:Value-Items.
+
+owl:authority_right-to-command
+rdf:type owl:Value-Items.
+
+
+
+owl:Face
+rdf:type owl:Human-Values;
+rdfs:hasDefinition owl:Maintaining-ones-public-image-and-avoiding-humiliation;
+rdfs:hasExplanation owl:social-recognition_respect;
+rdfs:hasExplanation owl:preserving-public-image_maintaining-face.
+
+owl:Maintaining-ones-public-image-and-avoiding-humiliation
+rdf:type owl:Definitions.
+
+owl:social-recognition_respect
+rdf:type owl:Value-Items.
+
+owl:preserving-public-image_maintaining-face
+rdf:type owl:Value-Items.
+
+
+owl:Security–personal
+rdf:type owl:Human-Values;
+rdfs:hasDefinition owl:Safety-in-ones-immediate-environment;
+rdfs:hasExplanation owl:sense-of-belonging_feeling-others-care-about-me;
+rdfs:hasExplanation owl:heal_not-sick; 
+rdfs:hasExplanation owl:reciprocating-favors_avoiding-indebtedness; 
+rdfs:hasExplanation owl:clean_neat-tidy; 
+rdfs:hasExplanation owl:family-security_safety-for-loved-ones.
+
+owl:Safety-in-ones-immediate-environment
+rdf:type owl:Definitions.
+
+owl:sense-of-belonging_feeling-others-care-about-me
+rdf:type owl:Value-Items.
+
+owl:heal_not-sick
+rdf:type owl:Value-Items.
+
+owl:reciprocating-favors_avoiding-indebtedness
+rdf:type owl:Value-Items.
+
+owl:clean_neat-tidy
+rdf:type owl:Value-Items.
+
+owl:family-security_safety-for-loved-ones
+rdf:type owl:Value-Items.
+
+
+
+
+owl:Universalism–concern
+rdf:type owl:Human-Values;
+rdfs:hasDefinition owl:Commitment-to-equality-justice-and-protection-for-all-people;
+rdfs:hasExplanation owl:equality-for-all;
+rdfs:hasExplanation owl:social-justice;
+rdfs:hasExplanation owl:world-at-peace.
+
+owl:Commitment-to-equality-justice-and-protection-for-all-people
+rdf:type owl:Definitions.
+
+owl:equality-for-all
+rdf:type owl:Value-Items.
+
+owl:social-justice
+rdf:type owl:Value-Items.
+
+owl:world-at-peace
+rdf:type owl:Value-Items.
+
+
+owl:Security–societal
+rdf:type owl:Human-Values;
+rdfs:hasDefinition owl:Safety-and-stability-in-the-wider-society;
+rdfs:hasExplanation owl:national-security_nation-safe-from-enemies; 
+rdfs:hasExplanation owl:social-order_societal-stability.
+
+owl:Safety-and-stability-in-the-wider-society
+rdf:type owl:Definitions.
+
+owl:national-security_nation-safe-from-enemies
+rdf:type owl:Value-Items.
+
+owl:social-order_societal-stability
+rdf:type owl:Value-Items.
+
+
+
+owl:Conformity–rules
+rdf:type owl:Human-Values;
+rdfs:hasDefinition owl:Compliance-with-rules-laws-and-formal-obligations;
+rdfs:hasExplanation owl:self-discipline_resist-temptation; 
+rdfs:hasExplanation owl:obedient_meet-obligations.
+
+owl:Compliance-with-rules-laws-and-formal-obligations
+rdf:type owl:Definitions.
+
+owl:self-discipline_resist-temptation
+rdf:type owl:Value-Items.
+
+owl:obedient_meet-obligations
+rdf:type owl:Value-Items.
+
+
+owl:Benevolence–caring
+rdf:type owl:Human-Values;
+rdfs:hasDefinition owl:Devotion-to-the-welfare-of-in-group-members;
+rdfs:hasExplanation owl:helpful_working-for-others-welfare; 
+rdfs:hasExplanation owl:honest_genuine; 
+rdfs:hasExplanation owl:forgiving_willing-to-pardon; 
+rdfs:hasExplanation owl:family-security_safety-for-loved-ones.
+
+owl:Devotion-to-the-welfare-of-in-group-members
+rdf:type owl:Definitions.
+
+owl:helpful_working-for-others-welfare
+rdf:type owl:Value-Items.
+
+owl:honest_genuine
+rdf:type owl:Value-Items.
+
+owl:forgiving_willing-to-pardon
+rdf:type owl:Value-Items.
+
+owl:family-security_safety-for-loved-ones
+rdf:type owl:Value-Items.
+
+
+
+owl:accuacy
+rdf:type owl:GDPR-Data-Protection-Principles;
+rdfs:Implicit_link owl:Self-direction-action; 
+rdfs:Explicit_Link owl:Power-resources;
+rdfs:Implicit_link owl:Power-dominance;
+rdfs:Implicit_link owl:Face.
+
+owl:lawfulness
+rdf:type owl:GDPR-Data-Protection-Principles;
+rdfs:Explicit_Link owl:Power-dominance; 
+rdfs:Explicit_Link owl:Universalism–concern;
+rdfs:Implicit_link owl:Conformity–rules.
+
+owl:fairness
+rdf:type owl:GDPR-Data-Protection-Principles;
+rdfs:Explicit_Link owl:Universalism–concern; 
+rdfs:Explicit_Link owl:Security–societal;
+rdfs:Explicit_Link owl:Conformity–rules;
+rdfs:Explicit_Link owl:Benevolence–caring.
+
+owl:purpose-limitation
+rdf:type owl:GDPR-Data-Protection-Principles;
+rdfs:Implicit_link owl:Self-direction-action.
+
+owl:storage-limitation
+rdf:type owl:GDPR-Data-Protection-Principles;
+rdfs:Explicit_Link owl:Power–resources;
+rdfs:Explicit_Link owl:Power–dominance.
+
+owl:data-minimisation
+rdf:type owl:GDPR-Data-Protection-Principles;
+rdfs:Explicit_Link owl:Security–societal.
+
+owl:integrity-confidentiality
+rdf:type owl:GDPR-Data-Protection-Principles;
+rdfs:Implicit_link owl:Security–personal.
+
+owl:transparency
+rdf:type owl:GDPR-Data-Protection-Principles;
+rdfs:Explicit_Link owl:Security–personal;
+rdfs:Explicit_Link owl:Universalism–concern; 
+rdfs:Explicit_Link owl:Security–societal;
+rdfs:Explicit_Link owl:Conformity–rules;
+rdfs:Explicit_Link owl:Benevolence–caring.
+
+
+
+
+
+
+owl:Right-to-transparency-Article-12
+rdf:type owl:GDPR-Data-Subject-Rights;
+rdfs:has owl:Overall-Article-12;
+rdfs:has owl:concise;
+rdfs:has owl:easily-accessible;
+rdfs:has owl:intelligible;
+rdfs:has owl:transparent.
+
+owl:Right-to-basic-Information-about-processing-Article-13-14
+rdf:type owl:GDPR-Data-Subject-Rights;
+rdfs:has owl:Overall-Article-13-14;
+rdfs:has owl:Information-about-Third-Parties.
+
+owl:Right-of-access-Article-15
+rdf:type owl:GDPR-Data-Subject-Rights;
+rdfs:has owl:Overall-Article-15;
+rdfs:has owl:If-and-where-Controller-is-processing-data;
+rdfs:has owl:Automated-processing-with-significant-effects-on-data-subject;
+rdfs:has owl:Categories-of-data-being-processed;
+rdfs:has owl:Categories-of-recipients-data-is-shared-with;
+rdfs:has owl:Existence-of-Rights;
+rdfs:has owl:Information-about-Processing;
+rdfs:has owl:Source-of-Data;
+rdfs:has owl:No-charges-levied;
+rdfs:has owl:Storage-Period.
+
+owl:Right-to-rectification-Article-16
+rdf:type owl:GDPR-Data-Subject-Rights;
+rdfs:has owl:Overall-Article-16.
+
+owl:Right-to-erasure-Article-17
+rdf:type owl:GDPR-Data-Subject-Rights;
+rdfs:has owl:Overall-Article-17;
+rdfs:has owl:Erase-when-consent-was-withdrawn;
+rdfs:has owl:Erase-when-data-is-no-longer-needed-for-original-purpose.
+
+owl:Right-to-restrict-processing-Article-18
+rdf:type owl:GDPR-Data-Subject-Rights;
+rdfs:has owl:Overall-Article-18;
+rdfs:has owl:When-accuracy-is-contested;
+rdfs:has owl:Data-no-longer-needed-for-original-purpose;
+rdfs:has owl:Processin-is-unlawful.
+
+owl:Right-to-data-portability-Article-20
+rdf:type owl:GDPR-Data-Subject-Rights;
+rdfs:has owl:Overall-Article-20;
+rdfs:has owl:Provide-copy-of-Personal-Data;
+rdfs:has owl:Should-be-machine-readable;
+rdfs:has owl:Should-support-reuse;
+rdfs:has owl:Should-be-commonly-used-format;
+rdfs:has owl:Should-be-structured.
+
+owl:Right-to-object-Article-21
+rdf:type owl:GDPR-Data-Subject-Rights;
+rdfs:has owl:Overall-Article-21;
+rdfs:has owl:Object-to-processing;
+rdfs:has owl:Object-to-direct-marketing.
+
+owl:Rights-over-automated-decisions-Article-22
+rdf:type owl:GDPR-Data-Subject-Rights;
+rdfs:has owl:Overall-Article-22.
+
+
+
+
+owl:Overall-Article-12
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:transparency.
+
+owl:concise
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-derived-link owl:fairness;
+rdfs:denotes-derived-link owl:transparency.
+
+owl:easily-accessible
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-derived-link owl:transparency.
+
+owl:intelligible 
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-derived-link owl:transparency.
+
+owl:transparent 
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:transparency.
+
+owl:Overall-Article-13-14
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-derived-link owl:fairness;
+rdfs:denotes-direct-link owl:transparency;
+rdfs:denotes-direct-link owl:purpose-limitation.
+
+owl:Information-about-Third-Parties
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-derived-link owl:fairness;
+rdfs:denotes-direct-link owl:transparency;
+rdfs:denotes-derived-link owl:storage-limitation;
+rdfs:denotes-direct-link owl:integrity-confidentiality.
+
+
+owl:Overall-Article-15
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:lawfulness;
+rdfs:denotes-direct-link owl:transparency.
+
+owl:If-and-where-Controller-is-processing-data
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-derived-link owl:transparency;
+rdfs:denotes-derived-link owl:storage-limitation.
+
+owl:Automated-processing-with-significant-effects-on-data-subject
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-derived-link owl:fairness;
+rdfs:denotes-direct-link owl:transparency.
+
+owl:Categories-of-data-being-processed
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:storage-limitation.
+
+owl:Categories-of-recipients-data-is-shared-with
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:transparency;
+rdfs:denotes-direct-link owl:integrity-confidentiality.
+
+owl:Existence-of-Rights
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:lawfulness.
+
+owl:Information-about-Processing
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:purpose-limitation.
+
+owl:Source-of-Data
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-derived-link owl:lawfulness;
+rdfs:denotes-direct-link owl:transparency.
+
+owl:No-charges-levied
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-derived-link owl:fairness;
+rdfs:denotes-derived-link owl:lawfulness.
+
+owl:Storage-Period
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:storage-limitation.
+
+owl:Overall-Article-16
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:accuracy.
+
+owl:Overall-Article-17
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:purpose-limitation;
+rdfs:denotes-direct-link owl:storage-limitation.
+
+owl:Erase-when-consent-was-withdrawn
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-derived-link owl:lawfulness;
+rdfs:denotes-direct-link owl:storage-limitation.
+
+owl:Erase-when-data-is-no-longer-needed-for-original-purpose
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:purpose-limitation;
+rdfs:denotes-direct-link owl:storage-limitation.
+
+owl:Overall-Article-18
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:lawfulness;
+rdfs:denotes-direct-link owl:purpose-limitation;
+rdfs:denotes-direct-link owl:accuracy.
+
+owl:When-accuracy-is-contested
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:accuracy.
+
+owl:Data-no-longer-needed-for-original-purpose
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:purpose-limitation.
+
+owl:Processin-is-unlawful
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:lawfulness.
+
+owl:Overall-Article-20
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:transparency.
+
+owl:Provide-copy-of-Personal-Data
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:transparency.
+
+owl:Should-be-machine-readable
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-derived-link owl:transparency.
+
+owl:Should-support-reuse
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-derived-link owl:transparency.
+
+owl:Should-be-commonly-used-format
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-derived-link owl:transparency.
+
+owl:Should-be-structured
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-derived-link owl:transparency.
+
+owl:Overall-Article-21
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:fairness;
+rdfs:denotes-direct-link owl:lawfulness.
+
+owl:Object-to-processing
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:fairness;
+rdfs:denotes-direct-link owl:lawfulness.
+
+owl:Object-to-direct-marketing
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:fairness;
+rdfs:denotes-direct-link owl:lawfulness;
+rdfs:denotes-direct-link owl:purpose-limitation.
+
+owl:Overall-Article-22
+rdf:type owl:Rights-Sub-Provisions-23;
+rdfs:denotes-direct-link owl:fairness;
+rdfs:denotes-derived-link owl:lawfulness;
+rdfs:denotes-derived-link owl:purpose-limitation;
+rdfs:denotes-derived-link owl:accuracy.
